@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <audio controls preload="auto" autoplay id="music" src="music.mp3#t=00:00:06" onended="javascript:window.location.reload();">
+        </audio>
+        <link rel="stylesheet" href="design.css">
+        <script src="script.js"></script>
+        <div id="raspuns">Ghicește numărul între 1 și 1000</div>
+        <div id="casuta">
+            <input type="text" id="ghicire" placeholder="1-1000">
+            <button id="button" onclick="changeText();">Ghicește</button>
+        </div>
+        <div id="incercari">Nr. încercări:10</div>
+    </body>
+</html>
